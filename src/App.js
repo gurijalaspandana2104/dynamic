@@ -116,14 +116,15 @@
 //     </div>
 //   );
 // }
-// export default App;
-import React from "react";
-import DynamicInputForm from "./components/DynamicInputForm";
+// export default App;import React from 'react';
+import UserList from './components/UserList';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <DynamicInputForm />
+    <div className="App">
+      <h1>User List</h1>
+      <UserList />
     </div>
   );
 }
